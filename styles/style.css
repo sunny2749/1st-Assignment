@@ -20,9 +20,27 @@ nav{
     align-items: center;
     padding: 16px 120px 16px 120px;
 }
-.nav-logo{
+/* .nav-logo{
     padding:16px 0px ;
+} */
+ .logo {
+  text-align: center;   /* সবকিছু মাঝখানে */
 }
+
+.kv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.tagline {
+  font-size: 14px;
+  margin-top: 4px;      /* KV-এর নিচে gap */
+  color: #333;
+}
+
+
 
 nav .right-side{
     display: flex;
