@@ -11,7 +11,6 @@
 }
 
 nav{
-    border: 1px solid red;
     width: 100%;
     max-width: 1600px;
     height: 92px;
@@ -63,7 +62,7 @@ nav .menu ul{
     text-align: center;
     align-items: center;
     background: url(../assets/hero-bg.png);
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
 }
 
 .banner-component{
@@ -181,6 +180,7 @@ margin-right: 8px;
     align-items: center;
     flex-direction: column;
     gap:16px ;
+    text-transform: capitalize;
 }
 
 .header-section h2{
@@ -265,3 +265,77 @@ margin-right: 8px;
     width: 32px;
     height: 32px;
 }
+
+#second-brain-section{
+    padding: 120px;
+}
+
+#second-brain-section .brain-section{
+    display: flex;
+    width: 1360px;
+    height: 600px;
+    margin: 0px auto;
+    gap: 60px;
+}
+
+.brain-section .left-img {
+    width:600px ;
+    height:600px ;
+    border-radius: 12px;
+}
+
+.right-section{
+    padding: 102px 0px;
+}
+
+.right-section-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.right-section-content p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: Inter;
+    font-style: Medium;
+    text-transform: uppercase;
+    color: #469165;
+}
+
+.right-section-content h2 {
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+.right-section-content .paragraph{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    text-transform: none;
+    margin-bottom: 40px;
+}
+
+.right-section .feature-item{
+    display: flex;
+    gap:16px;
+}
+.feature-item p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: Inter;
+    font-style: Medium;
+}
+
+.four-line{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
