@@ -136,7 +136,6 @@ button:hover{
     width: 251px;
     height: 52px;
     justify-content: center;
-    align-items: center;
     padding: 12px 16px 12px 16px;
     border-radius: 4px;
     background-color: #469165;
@@ -171,7 +170,7 @@ button:hover{
     cursor: pointer;
 }
 .banner-btn2:hover{
-     background-color: darkblue;
+    background-color: darkblue;
 }
 
 
@@ -188,7 +187,7 @@ margin-right: 8px;
 }
 
 
-/* Design for note section */
+/* Design for notes section */
 #note .header-section{
     width: 85%;
     max-width: 1360px;
@@ -344,7 +343,7 @@ margin-right: 8px;
 
 .right-section .feature-item{
     display: flex;
-    gap:16px;
+    gap: 6px;
 }
 .feature-item p{
     font-size: 16px;
@@ -358,5 +357,90 @@ margin-right: 8px;
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+
+#EAS-Section{
+    padding: 2px 120px 120px 120px;
+}
+
+.EAS-banner-content{
+    background-color: #F7F6F2;
+    width: 1320px;
+    height: 384px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+
+.EAS-banner-content .simple-message h2{
+    font-size: 40px;
+    font-style: Bold;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    font-family: Inter;
+    text-transform: capitalize;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.EAS-banner-content .simple-message p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Inter;
+    margin-bottom: 24px;
+    color: #627382;
+}
+
+.EAS-banner-content .GEA-btn{
+    width: 194px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    background-color: #469165;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.GEA.btn:hover{
+    background-color: darkblue;
+}
+
+.GEA-btn .btn-text{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    font-family: Inter;
+    text-transform: capitalize;
+}
+
+
+.EAS-banner-content .ending-msg{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #627382;
 }
 
